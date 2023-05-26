@@ -14,13 +14,16 @@
 </head>
 
 <body class="main-bg">
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1>
+            <h1 onclick="getElementById('close-menu').checked = false;">
                 <a href="#home">LOGO</a>
             </h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false">
                     <li> <a href="#intro">Intro</a></li>
                     <li> <a href="#work-grid">Work</a></li>
                     <li> <a href="#gallery">Gallery</a></li>
@@ -252,6 +255,10 @@
         <p> <a rel="nofollow" target="_blank" href="https://github.com/MarceloCardoso98"> Feito com <span class="heart"> ❤ </span> por Marcelo
                 Guimarães </a></p>
     </footer>
+
+    <a class="back-to-top" href="#home">
+        <img src="./assets/img/seta-dupla-para-cima.png" alt="back-to-top">
+    </a>
 
 </body>
 
