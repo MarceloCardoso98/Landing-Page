@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   gap: var(--gap);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .intro-text-content,
@@ -200,5 +200,11 @@ max-height: 100%;
     width: 100%;
   }
 
+  .work-grid-content {
+    display: block;
+  }
+
 }
+
+
 
